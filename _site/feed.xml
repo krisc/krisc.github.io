@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Kris Calabio</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2014-09-23T16:25:58+00:00</updated>
+<id>/</id>
+<author>
+  <name>Kris Calabio</name>
+  <uri>/</uri>
+  <email>kriscalabio@gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Strange Loop 2014]]></title>
+  <link rel="alternate" type="text/html" href="/blog/StrangeLoop2014/" />
+  <id>/blog/StrangeLoop2014</id>
+  <published>2014-09-24T00:00:00+00:00</published>
+  <updated>2014-09-24T00:00:00+00:00</updated>
+  <author>
+    <name>Kris Calabio</name>
+    <uri></uri>
+    <email>kriscalabio@gmail.com</email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;reflections-on-my-first-conference&quot;&gt;Reflections on my first conference&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/zangderak-deepbluelambda-byMike.jpg&quot; alt=&quot;Me and Daniel Solano-Gomez at the core.async workshop&quot; /&gt;
+photo by &lt;a href=&quot;https://twitter.com/michaelbridge&quot;&gt;Mike Bridge&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;diversity-and-opportunity&quot;&gt;Diversity and Opportunity&lt;/h2&gt;
+&lt;p&gt;Although I spend much of the day at home taking care of my father with Alzheimer’s disease, I do find the time to pursue my double career as a programmer and a musician by taking on some software projects and playing some gigs. Income is sparse, although now that me and my brother Mark are living with our folks again we have recently tried our hands at becoming game developers.&lt;/p&gt;
+
+&lt;p&gt;I found out about the Diversity Scholarship from the Strange Loop mailing list. On a whim, I sent an application. I was thrilled to find out that I was accepted. If it weren’t for the Scholarship I just wouldn’t be able to go to the Strange Loop conference at all. I am forever grateful to &lt;a href=&quot;https://twitter.com/BridgetHillyer&quot;&gt;Bridget Hillyer&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/puredanger&quot;&gt;Alex Miller&lt;/a&gt;, and all the sponsors for giving me the opportuniy.&lt;/p&gt;
+
+&lt;p&gt;This was my very first conference. I have heard that tech conferences tend to lack diversity, and it is well-known that the industry is dominated by white males. I was glad to see people of all colors, creeds, and genders. The turnout for women is probably the most notable.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; lang=&quot;en&quot;&gt;&lt;p&gt;There is a line at one of the restrooms! Victory!! &lt;a href=&quot;https://twitter.com/hashtag/strangeloop?src=hash&quot;&gt;#strangeloop&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jessica Kerr (@jessitron) &lt;a href=&quot;https://twitter.com/jessitron/status/512707245981724672&quot;&gt;September 18, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Perhaps I’m not the most qualified to write about diversity so I will refer to &lt;a href=&quot;http://anarchival.net/Strange-Loop/&quot;&gt;anarchival’s wonderful piece&lt;/a&gt; about her Strange Loop 2014 experience:&lt;/p&gt;
+
+&lt;blockquote&gt;When much of the world is telling you, “you can’t, you can’t, you can’t, you don’t belong here,” an experience like this year’s Strange Loop might be just enough encouragement to give you the strength to square back your shoulders and respond, “Yes, I can, and yes, I do…and it shouldn’t stop me even if you believe what you say is true.” If success is going from failure to failure without losing enthusiasm, attending Strange Loop certainly gave me a massive boost of that enthusiasm.&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;making-progress&quot;&gt;Making Progress&lt;/h2&gt;
+&lt;p&gt;I’ve been following the Strange Loop conference and watching talks since 2012. What draws me to Strange Loop compared to other tech conferences is that the speakers seem to be a bit more forward thinking.&lt;/p&gt;
+
+&lt;p&gt;In the opening keynote &lt;a href=&quot;https://twitter.com/joeerl&quot;&gt;Joe Armstrong&lt;/a&gt; helps us step back and look at the bigger picture to see that, yes, programming is terrible. If we as an industry want to move forward, we have to keep in mind that things must not stay as they are. He also explores the physical limitations of computing and presents the idea of a blackhole computer. Fascinating!&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/lKXe3HUG2l4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;I’ve been interested in game programming ever since I was a 12 year old kid playing this Zelda-like MMO called Graal. It had a level editor where you could script your own NPCs, and I liked making my own boss battles. Although I am still inexperienced with game programming, I might just say that game development may be the messiest, most difficult kind of codebase to work with. By the end of a game project, one is left with this enormous montrosity of fragile code complete with callback hell. Maybe it’s my inexperience with large codebases in general. Indeed, &lt;a href=&quot;https://twitter.com/ra&quot;&gt;Ramsey Nasser&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/timsgardner&quot;&gt;Tims Gardner&lt;/a&gt; in their talk bring up the fact that “game development sucks,” and part of that has to do with the the fact that if you want to target platforms like PS4, XBox, etc., the languages we have to choose from are C, C++, C#, and Java. But what about languages which lend themselves to functional programming, or reactive programming?&lt;/p&gt;
+
+&lt;p&gt;Nasser and Gardner present their open source project which combines the multi-platform game engine/IDE Unity with the Clojure programming language. I have experimented with Clojure game programming before with &lt;a href=&quot;https://github.com/oakes/play-clj&quot;&gt;play-clj&lt;/a&gt; which is a Clojure wrapper over &lt;a href=&quot;http://libgdx.badlogicgames.com/&quot;&gt;libgdx&lt;/a&gt;. It has a nice API, but I experienced some performance issues once I created over thirty entities. This is another choice of technology that I will have to try out. Just like play-clj it’s still very young, so maybe I’ll have to give Unity and C# a shot until the project matures a bit. Nonetheless, the fact that they are working on something like this is very exciting.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/tJr_TD1BtF0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;I’ve seen a &lt;a href=&quot;http://www.infoq.com/presentations/elm-reactive-programming&quot;&gt;video&lt;/a&gt; of one of &lt;a href=&quot;https://twitter.com/czaplic&quot;&gt;Evan Czaplicki&lt;/a&gt;’s earlier talks, and this talk on functional reactive programming was one which I was looking forward to the most. I actually woke up a bit late that morning and walked in the wrong direction to the conference venue for a while so I missed the first ten minutes of this talk. I entered the theater, I saw Super Mario jump, and the crowd goes wild. Yep, that’s Elm! When I returned back home, Elm was one of the first things I looked into that were presented at the conference. Elm seems so amazing to me. I hope to one day make a videogame using this technology. I looked at some examples on the &lt;a href=&quot;http://elm-lang.org&quot;&gt;Elm website)&lt;/a&gt;, and the next step for me is to read Evan’s &lt;a href=&quot;http://elm-lang.org/papers/concurrent-frp.pdf&quot;&gt;paper&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;fun&quot;&gt;Fun&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/zendo.png&quot; alt=&quot;One true Zendo koan and one false Zendo koan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On Thursday night &lt;a href=&quot;https://twitter.com/fogus&quot;&gt;Michael Fogus&lt;/a&gt; (co-author of Joy of Clojure, excellent book) held an Unsession where he would present an inductive logic game called &lt;a href=&quot;http://en.wikipedia.org/wiki/Zendo_(game)&quot;&gt;Zendo&lt;/a&gt;. I arrived at the location a bit earlier and was thrilled to see a group at a table playing a game of Set. I jumped in for a few rounds, and played horribly of course. We all were there for the UnSession. I will not explain the &lt;a href=&quot;http://en.wikipedia.org/wiki/Zendo_(game)&quot;&gt;game&lt;/a&gt; here, but we all had a lot of fun. The UnSession was scheduled from 9pm to 10pm, but we played well into midnight. Some of us even decided to ditch the Cardinals baseball game on Friday night after the conference to play more games together.&lt;/p&gt;
+
+&lt;p&gt;Having a degree in Music Technology, I just had to see what &lt;a href=&quot;https://twitter.com/jergason&quot;&gt;Jamison Dance&lt;/a&gt;’s DOMStep talk was all about. Jamison was such a hilarious person with his constant joking and self-deprecating humour. I won’t spoil the jokes so just watch the video. Using JavaScript’s WebAudio API, he made a dubstep track in the browser. I even participated in the Strange Loop laptop orchestra. I might have to one-up Jamison and make a DOMnBass web app.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/QAwbjMdXj-Y&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;I got my agenda mixed up and found myself at a talk about kernel hacking, and the speaker was one of the people I played Zendo with: the bubbly personality which is &lt;a href=&quot;https://twitter.com/b0rk&quot;&gt;Julia Evans&lt;/a&gt;. I had no idea! This was such a fun talk. Julia made the intimidating idea of kernel hacking into something fun and accessible to non-systems programmers.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/0IQlpFWTFbM&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;p&gt;LIVECODING ROBOT DANCE PARTY! Enough said. &lt;a href=&quot;https://twitter.com/gigasquid&quot;&gt;Carin Meier&lt;/a&gt;’s talk was very emotional and very inspiring. I almost cried. Programming is fun, and we should always strive to keep the flame alive. As for me, I need to keep that sense of wonder that videogames gave me as a kid and made me curious about programming to begin with. &lt;a href=&quot;https://twitter.com/samaaron&quot;&gt;Sam Aaron&lt;/a&gt;’s talk was also an inspiration. Introducing young children to programming through livecoded music seems like an idea worth exploring.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/3_zW63dcZB0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I had the time of my life at the Strange Loop conference. It was my very first conference and glad that it was. Although I love my musician friends back home I don’t have many programmer friends in SoCal, let alone programmers into things like functional programming, language design, type theory, etc. I’m not the greatest programmer. Sometimes I felt like I was the dumbest person at the conference, but I was surrounded by so many forward-thinking, intelligent, and diverse individuals that I feel like I was growing as a person just by being around them. Needless to say, at the Strange Loop conference I felt like I belonged. I’m still basking in the afterglow. I hope I can go again next year!&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/blog/StrangeLoop2014/&quot;&gt;Strange Loop 2014&lt;/a&gt; was originally published by Kris Calabio at &lt;a href=&quot;&quot;&gt;Kris Calabio&lt;/a&gt; on September 24, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>
