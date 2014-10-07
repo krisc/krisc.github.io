@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-10-07T21:20:00+00:00</updated>
+<updated>2014-10-07T21:26:44+00:00</updated>
 <id>/</id>
 <author>
   <name>Kris Calabio</name>
@@ -30,16 +30,16 @@
 &lt;p&gt;&lt;img src=&quot;/assets/rdb_dryerase.jpg&quot; alt=&quot;Prototyping on a dry-erase board&quot; /&gt;
 &lt;br /&gt;&lt;sup&gt;Prototyping on a dry-erase board&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;A few weekends ago, Mark and I entered the &lt;a href=&quot;https://clojurecup.com/&quot;&gt;Clojure Cup&lt;/a&gt; coding competition. Our entry was an interactive experience called &lt;a href=&quot;http://robotdanceparty.clojurecup.com/&quot;&gt;robot_dance_party.gif&lt;/a&gt;. Create a robot dance party in your browser. Export to .gif (we never got around doing that part). Our web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use &lt;a href=&quot;http://jawsjs.com/&quot;&gt;jaws.js&lt;/a&gt;, a JavaScript library for making HTML5/Canvas games. &lt;/p&gt;
+&lt;p&gt;A few weekends ago, Mark and I entered the &lt;a href=&quot;https://clojurecup.com/&quot; target=&quot;_blank&quot;&gt;Clojure Cup&lt;/a&gt; coding competition. Our entry was an interactive experience called &lt;a href=&quot;http://robotdanceparty.clojurecup.com/&quot; target=&quot;_blank&quot;&gt;robot_dance_party.gif&lt;/a&gt;. Create a robot dance party in your browser. Export to .gif (we never got around doing that part). Our web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use &lt;a href=&quot;http://jawsjs.com/&quot; target=&quot;_blank&quot;&gt;jaws.js&lt;/a&gt;, a JavaScript library for making HTML5/Canvas games. &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/rdp.png&quot; alt=&quot;Snapshot of robot_dance_party.gif&quot; /&gt;
+&lt;p&gt;&lt;a href=&quot;http://robotdanceparty.clojurecup.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/rdp.png&quot; alt=&quot;Snapshot of robot_dance_party.gif&quot; /&gt;&lt;/a&gt;
 &lt;br /&gt;&lt;sup&gt;Doesn’t that look like fun?&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;Although we received only a few votes from the public and mediocre ratings from the judges, that is besides the point of this blog post. Why this was so important to me was that we made this thing in two days. Our previous game took two years! I’ve learned a lot from these two projects of contrasting time scales.&lt;/p&gt;
 
 &lt;h2 id=&quot;super-wizard-potion-the-neverending-project&quot;&gt;Super Wizard Potion: the neverending project&lt;/h2&gt;
 
-&lt;p&gt;Our previous project was also our first video game, an in-browser puzzle game called &lt;a href=&quot;http://superwizardpotion.pythonanywhere.com/&quot;&gt;Super Wizard Potion&lt;/a&gt;. On the day of the beta release Mark posted a post-mortem of sorts on Facebook:&lt;/p&gt;
+&lt;p&gt;Our previous project was also our first video game, an in-browser puzzle game called &lt;a href=&quot;http://superwizardpotion.pythonanywhere.com/&quot; target=&quot;_blank&quot;&gt;Super Wizard Potion&lt;/a&gt;. On the day of the beta release Mark posted a post-mortem of sorts on Facebook:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;I am so burned out of this game. We’re going to let the game sit for a while as we gather feedback, and come back to it after we pursue some smaller projects. In the near future, we plan on focusing on making quick prototypes for games, not spending over a month on a particular idea. That way, we can let our ideas flow and focus on our favorite ones and build on them. By recent months, I started to get tired of SWP, so I want to make sure we focus on projects we feel enthusiastic about.&lt;/p&gt;
@@ -49,7 +49,7 @@
 
 &lt;h2 id=&quot;robotdancepartygif-a-quick-and-dirty-version-1&quot;&gt;robot_dance_party.gif: a quick and dirty version 1&lt;/h2&gt;
 
-&lt;p&gt;In the tech startup world much advice is given to release early and fail fast. In his essay &lt;a href=&quot;http://paulgraham.com/startuplessons.html&quot;&gt;“The Hardest Lessons for Startups to Learn”&lt;/a&gt;, co-founder of startup incubator Y Combinator Paul Graham writes:&lt;/p&gt;
+&lt;p&gt;In the tech startup world much advice is given to release early and fail fast. In his essay &lt;a href=&quot;http://paulgraham.com/startuplessons.html&quot; target=&quot;_blank&quot;&gt;“The Hardest Lessons for Startups to Learn”&lt;/a&gt;, co-founder of startup incubator Y Combinator Paul Graham writes:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The thing I probably repeat most is this recipe for a startup: get a version 1 out fast, then improve it based on users’ reactions.&lt;/p&gt;
@@ -62,16 +62,16 @@
 &lt;p&gt;&lt;img src=&quot;/assets/burgers.jpg&quot; alt=&quot;Powering up for the coding competition with burgers&quot; /&gt;
 &lt;br /&gt;&lt;sup&gt;Powering up for the coding competition with burgers&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;Contrast this with the end result of the Clojure Cup coding competition. With robot_dance_party.gif we had a working product in two days. We submitted our entry and soon the &lt;a href=&quot;https://clojurecup.com/?#/apps/robotdanceparty&quot;&gt;feedback&lt;/a&gt; came rolling in. It didn’t really matter to me that we didn’t receive anything more than 3 out of 5 stars from the judges on any of the criteria. The important thing was that the judges were able to use a minimal yet working application so they can give us feedback.&lt;/p&gt;
+&lt;p&gt;Contrast this with the end result of the Clojure Cup coding competition. With robot_dance_party.gif we had a working product in two days. We submitted our entry and soon the &lt;a href=&quot;https://clojurecup.com/?#/apps/robotdanceparty&quot; target=&quot;_blank&quot;&gt;feedback&lt;/a&gt; came rolling in. It didn’t really matter to me that we didn’t receive anything more than 3 out of 5 stars from the judges on any of the criteria. The important thing was that the judges were able to use a minimal yet working application so they can give us feedback.&lt;/p&gt;
 
 &lt;h2 id=&quot;failing-faster&quot;&gt;Failing Faster&lt;/h2&gt;
 
 &lt;p&gt;Learning from these two drastically different approaches in development, we have since changed focus as a team. Still being beginners in game development, we realize that we shouldn’t be taking on ambitious, long-term projects but smaller projects that would take no more than a month before a prototype is sent off to testers.&lt;/p&gt;
 
-&lt;p&gt;Beyond just relieving the pressure of wasting so much effort into a project that would probably fail, focusing on non-ambitious games would free us to take more risks and explore the possibility space of game design before we plunge deep into an idea that we think would be worthwhile investing more time and energy on. To quote Paul Graham once again (from &lt;a href=&quot;http://paulgraham.com/before.html&quot;&gt;“Before the Startup”&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;Beyond just relieving the pressure of wasting so much effort into a project that would probably fail, focusing on non-ambitious games would free us to take more risks and explore the possibility space of game design before we plunge deep into an idea that we think would be worthwhile investing more time and energy on. To quote Paul Graham once again (from &lt;a href=&quot;http://paulgraham.com/before.html&quot; target=&quot;_blank&quot;&gt;“Before the Startup”&lt;/a&gt;):&lt;/p&gt;
 &lt;blockquote&gt;Starting a startup is like a brutally fast depth-first search. Most people should still be searching breadth-first at 20.&lt;/blockquote&gt;
 
-&lt;p&gt;Due to the fact that we are virtually unknown and do not have much of an audience, we even feel somewhat responsible to take more risks with small-scale games. In her book &lt;em&gt;Rise of the Videogame Zinesters&lt;/em&gt;, game designer Anna Anthropy writes:&lt;/p&gt;
+&lt;p&gt;Due to the fact that we are virtually unknown and do not have much of an audience, we even feel somewhat responsible to take more risks with small-scale games. In her book &lt;a href=&quot;http://www.amazon.com/Rise-Videogame-Zinesters-Drop-outs-Housewives/dp/1609803728/&quot; target=&quot;_blank&quot;&gt;&lt;em&gt;Rise of the Videogame Zinesters&lt;/em&gt;&lt;/a&gt;, game designer Anna Anthropy writes:&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Smaller games with smaller budgets and smaller audiences have the luxury of being more experimental or bizarre or interesting than 12 million dollar games that need to play it as safely as possible to ensure a return on investment. Imagine what a videogames industry that wasn’t fixated on hits–that wasn’t required to make hits–would create.&lt;/p&gt;
@@ -82,7 +82,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/ghost.gif&quot; alt=&quot;This ghost really has to go poo.&quot; /&gt;
 &lt;br /&gt;&lt;sup&gt;This ghost really has to go poo.&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;You can expect some strange little interactive experiences from Plunger Games released more frequently in the near future. Although we do not yet have a website that acts as a portal for our games, you can &lt;a href=&quot;https://twitter.com/zangderak&quot;&gt;follow me on Twitter&lt;/a&gt; and &lt;a href=&quot;http://skid-marq.tumblr.com/&quot;&gt;Mark on Tumblr&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can expect some strange little interactive experiences from Plunger Games released more frequently in the near future. Although we do not yet have a website that acts as a portal for our games, you can &lt;a href=&quot;https://twitter.com/zangderak&quot; target=&quot;_blank&quot;&gt;follow me on Twitter&lt;/a&gt; and &lt;a href=&quot;http://skid-marq.tumblr.com/&quot; target=&quot;_blank&quot;&gt;Mark on Tumblr&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I will leave you with this motivational piece from Extra Credits:&lt;/p&gt;
 
