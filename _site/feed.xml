@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-10-07T21:03:46+00:00</updated>
+<updated>2014-10-07T21:18:36+00:00</updated>
 <id>/</id>
 <author>
   <name>Kris Calabio</name>
@@ -30,7 +30,7 @@
 &lt;p&gt;&lt;img src=&quot;/assets/rdb_dryerase.jpg&quot; alt=&quot;Prototyping on a dry-erase board&quot; /&gt;
 &lt;br /&gt;&lt;sup&gt;Prototyping on a dry-erase board&lt;/sup&gt;&lt;/p&gt;
 
-&lt;p&gt;A few weekends ago, Mark and I competed in &lt;a href=&quot;https://clojurecup.com/&quot;&gt;Clojure Cup&lt;/a&gt;. Our web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use &lt;a href=&quot;http://jawsjs.com/&quot;&gt;jaws.js&lt;/a&gt; a JavaScript library for making HTML5/Canvas games. Our entry was an interactive experience called &lt;a href=&quot;http://robotdanceparty.clojurecup.com/&quot;&gt;robot_dance_party.gif&lt;/a&gt;. Create a robot dance party in your browser. Export to .gif (we never got around doing that part).&lt;/p&gt;
+&lt;p&gt;A few weekends ago, Mark and I competed in &lt;a href=&quot;https://clojurecup.com/&quot;&gt;Clojure Cup&lt;/a&gt;. Our entry was an interactive experience called &lt;a href=&quot;http://robotdanceparty.clojurecup.com/&quot;&gt;robot_dance_party.gif&lt;/a&gt;. Create a robot dance party in your browser. Export to .gif (we never got around doing that part). Our web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use &lt;a href=&quot;http://jawsjs.com/&quot;&gt;jaws.js&lt;/a&gt;, a JavaScript library for making HTML5/Canvas games. &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/rdp.png&quot; alt=&quot;Snapshot of robot_dance_party.gif&quot; /&gt;
 &lt;br /&gt;&lt;sup&gt;Doesn’t that look like fun?&lt;/sup&gt;&lt;/p&gt;
