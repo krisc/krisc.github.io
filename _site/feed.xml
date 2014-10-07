@@ -4,13 +4,73 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2014-10-07T19:44:53+00:00</updated>
+<updated>2014-10-07T19:46:06+00:00</updated>
 <id>/</id>
 <author>
   <name>Kris Calabio</name>
   <uri>/</uri>
   <email>kriscalabio@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Clojure Cup 2014]]></title>
+  <link rel="alternate" type="text/html" href="/blog/ClojureCup2014/" />
+  <id>/blog/ClojureCup2014</id>
+  <published>2014-10-08T00:00:00+00:00</published>
+  <updated>2014-10-08T00:00:00+00:00</updated>
+  <author>
+    <name>Kris Calabio</name>
+    <uri></uri>
+    <email>kriscalabio@gmail.com</email>
+  </author>
+  <content type="html">&lt;h1 id=&quot;a-lesson-in-failing-fast&quot;&gt;A lesson in failing fast&lt;/h1&gt;
+&lt;p&gt;A few weekends ago, Mark and I competed in &lt;a href=&quot;https://clojurecup.com/&quot;&gt;Clojure Cup&lt;/a&gt;. The web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use &lt;a href=&quot;http://jawsjs.com/&quot;&gt;jaws.js&lt;/a&gt; a JavaScript library for making HTML5/Canvas games. Our entry was an interactive experience called &lt;a href=&quot;http://robotdanceparty.clojurecup.com/&quot;&gt;robot_dance_party.gif&lt;/a&gt;. Create a robot dance party in your browser. Export to .gif (we never got around doing that part).&lt;/p&gt;
+
+&lt;p&gt;Although we received only a few votes from the public and mediocre ratings from the judges, that is besides the point of this blog post. Why this was so important to me was that we made this thing in two days. Our previous game took two years! I’ve learned a lot from these two projects of contrasting time scales.&lt;/p&gt;
+
+&lt;h2 id=&quot;super-wizard-potion-the-neverending-project&quot;&gt;Super Wizard Potion: the neverending project&lt;/h2&gt;
+
+&lt;p&gt;Our previous project was also our first video game, an in-browser puzzle game called &lt;a href=&quot;http://superwizardpotion.pythonanywhere.com/&quot;&gt;Super Wizard Potion&lt;/a&gt;. On the day of the beta release Mark posted a post-mortem of sorts on Facebook:&lt;/p&gt;
+
+&lt;blockquote&gt;I am so burned out of this game. We&#39;re going to let the game sit for a while as we gather feedback, and come back to it after we pursue some smaller projects. In the near future, we plan on focusing on making quick prototypes for games, not spending over a month on a particular idea. That way, we can let our ideas flow and focus on our favorite ones and build on them. By recent months, I started to get tired of SWP, so I want to make sure we focus on projects we feel enthusiastic about.
+  
+  
+&lt;p&gt;I&#39;m not saying I don&#39;t like SWP, it&#39;s just that I had so many ideas for it that we had to unfortunately cut out just to get it finished. But hey, this is only our first game! The lessons I&#39;ve learned and the experience I&#39;ve acquired are a great personal investment. My horrible coding was sloppy and huge (first time with a big project in Javascript), but I can learn from the mistakes I&#39;ve made if I decide to make another game in Javascript. I learned a lot about pixel art, and I&#39;ve never seen Kris churn out music so fast before. So even if I&#39;m not super-proud of the game itself, at least we came out with pretty cool art and music.
+  
+  
+
+
+
+##robot\_dance\_party.gif: a quick and dirty version 1
+
+In the tech startup world much advice is given to release early and fail fast. In his essay [&quot;The Hardest Lessons for Startups to Learn&quot;](http://paulgraham.com/startuplessons.html), co-founder of startup incubator Y Combinator Paul Graham writes:
+
+&lt;blockquote&gt;The thing I probably repeat most is this recipe for a startup: get a version 1 out fast, then improve it based on users&#39; reactions.
+&lt;p&gt;By &quot;release early&quot; I don&#39;t mean you should release something full of bugs, but that you should release something minimal. Users hate bugs, but they don&#39;t seem to mind a minimal version 1, if there&#39;s more coming soon.
+
+Although playtesting became an integral part of the development of Super Wizard Potion, it took us a very long time to get it in the hands of players. By the time of the first round of playtesting, we were already so deep into the development process. We were so caught up in what WE thought the game should be that we were blinded to what first-time players would think of the game or if they could even get into the game at all. After that first round, we began to make drastic changes to the game. We would have saved so much time and energy if we had people play a much earlier iteration of the game.
+
+Contrast this with the end result of the Clojure Cup coding competition. With robot\_dance\_party.gif we had a working product in two days. We submitted our entry and soon the [feedback](https://clojurecup.com/?#/apps/robotdanceparty) came rolling in. It didn&#39;t really matter to me that we didn&#39;t receive anything more than 3 out of 5 stars from the judges on any of the criteria. The important thing was that the judges were able to use a minimal yet working application so they can give us feedback.
+
+##Failing Faster
+
+Learning from these two drastically different approaches in development, we have since changed focus as a team. Still being beginners in game development, we realize that we shouldn&#39;t be taking on ambitious, long-term projects but smaller projects that would take no more than a month before a prototype is sent off to testers.
+
+Beyond just relieving the pressure of wasting so much effort into a project that would probably fail, focusing on non-ambitious games would free us to take more risks and explore the possibility space of game design before we plunge deep into an idea that we think would be worthwhile investing more time and energy on. To quote Paul Graham once again (from [&quot;Before the Startup&quot;](http://paulgraham.com/before.html)):
+&lt;blockquote&gt;Starting a startup is like a brutally fast depth-first search. Most people should still be searching breadth-first at 20.&lt;/blockquote&gt;
+
+You can expect some strange little interactive experiences from Plunger Games released more frequently in the near future. Although we do not yet have a website that acts as a portal for our games, you can [follow me on Twitter](https://twitter.com/zangderak) and [Mark on Tumblr](http://skid-marq.tumblr.com/).
+
+I will leave you with this motivational piece from Extra Credits:
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/rDjrOaoHz9s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;/p&gt;&lt;/blockquote&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+  &lt;p&gt;&lt;a href=&quot;/blog/ClojureCup2014/&quot;&gt;Clojure Cup 2014&lt;/a&gt; was originally published by Kris Calabio at &lt;a href=&quot;&quot;&gt;Kris Calabio&lt;/a&gt; on October 08, 2014.&lt;/p&gt;</content>
+</entry>
 
 
   

@@ -1,6 +1,15 @@
 [
 	
 		{
+		  "title"      : "Clojure Cup 2014",
+		  "category"   : "",
+      "tags"       : "",
+		  "url"        : "/blog/ClojureCup2014/",
+		  "date"       : "2014-10-08 00:00:00 +0000",
+		  "shortdate"  : "October 08, 2014"
+		} ,
+	
+		{
 		  "title"      : "Strange Loop 2014",
 		  "category"   : "",
       "tags"       : "",
