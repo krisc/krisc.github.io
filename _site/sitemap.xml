@@ -13,21 +13,21 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2014-09-23T16:25:58+00:00</lastmod>
+    <lastmod>2014-10-07T19:44:53+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2014-09-23T16:25:58+00:00</lastmod>
+    <lastmod>2014-10-07T19:44:53+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2014-09-23T16:25:58+00:00</lastmod>
+    <lastmod>2014-10-07T19:44:53+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
