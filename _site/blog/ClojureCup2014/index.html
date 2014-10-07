@@ -1,0 +1,278 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Clojure Cup 2014 &#8211; Kris Calabio</title>
+<meta name="description" content="A lesson in failing fast
+A few weekends ago, Mark and I competed in Clojure Cup. The web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use jaws.js a JavaScript library for making HTML5/Canvas games. Our entry was an interactive experience called robot_dance_party.gif. Create a robot dance party in your browser. Export to .gif (we never got around doing that part).
+
+">
+<meta name="keywords" content="">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Clojure Cup 2014">
+<meta name="twitter:description" content="A lesson in failing fast
+A few weekends ago, Mark and I competed in Clojure Cup. The web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use jaws.js a JavaScript library for making HTML5/Canvas games. Our entry was an interactive experience called robot_dance_party.gif. Create a robot dance party in your browser. Export to .gif (we never got around doing that part).
+
+">
+<meta name="twitter:site" content="@zangderak">
+<meta name="twitter:creator" content="@zangderak">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Clojure Cup 2014">
+<meta property="og:description" content="A lesson in failing fast
+A few weekends ago, Mark and I competed in Clojure Cup. The web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use jaws.js a JavaScript library for making HTML5/Canvas games. Our entry was an interactive experience called robot_dance_party.gif. Create a robot dance party in your browser. Export to .gif (we never got around doing that part).
+
+">
+<meta property="og:url" content="/blog/ClojureCup2014/">
+<meta property="og:site_name" content="Kris Calabio">
+
+
+
+
+
+<link rel="canonical" href="/blog/ClojureCup2014/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Kris Calabio Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<!-- Webfonts -->
+<script src="//use.edgefonts.net/source-sans-pro:n2,i2,n3,i3,n4,i4,n6,i6,n7,i7,n9,i9;source-code-pro:n4,n7;volkhov.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+  <script src="/assets/js/vendor/html5shiv.min.js"></script>
+  <script src="/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body id="post">
+
+<div class="navigation-wrapper">
+	<nav role="navigation" id="site-nav" class="animated drop">
+	    <ul>
+      
+		    
+		        
+		    
+		    <li><a href="/blog/" >Blog</a></li>
+		  
+		    
+		        
+		        
+		    <li><a href="https://twitter.com/zangderak" target="_blank">Twitter</a></li>
+		  
+		    
+		        
+		        
+		    <li><a href="https://github.com/krisc" target="_blank">GitHub</a></li>
+		  
+        <li class="dosearch"><span><i class="fa fa-search"></i> Search</span></li>
+	    </ul>
+	</nav>
+</div><!-- /.navigation-wrapper -->
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+<div class="search-wrapper">
+  <div class="search-form">
+    <input type="text" class="search-field" placeholder="Search...">
+    <button class="close-btn"><i class="fa fa-times-circle fa-2x"></i></button>
+    <ul class="search-results post-list"></ul><!-- /.search-results -->
+  </div><!-- /.search-form -->
+</div><!-- ./search-wrapper -->
+
+<header class="masthead">
+	<div class="wrap">
+        
+        <h1 class="site-title animated fadeIn"><a href="">Kris Calabio</a></h1>
+		<h2 class="site-description animated fadeIn" itemprop="description">and his blog</h2>
+	</div>
+</header><!-- /.masthead -->
+
+<div class="js-menu-screen menu-screen"></div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title">Clojure Cup 2014</h1>
+        
+      </header>
+      <footer class="entry-meta">
+        
+        
+        
+          <img src="/images/bio-photo.jpg" class="bio-photo" alt="Kris Calabio bio photo"></a>
+        
+        <span class="author vcard">By <span class="fn">Kris Calabio</span></span>
+        <span class="entry-date date published"><time datetime="2014-10-08T00:00:00+00:00"><i class="fa fa-calendar-o"></i> October 08, 2014</time></span>
+        
+        
+        
+        
+      </footer>
+      <div class="entry-content">
+        <h1 id="a-lesson-in-failing-fast">A lesson in failing fast</h1>
+<p>A few weekends ago, Mark and I competed in <a href="https://clojurecup.com/">Clojure Cup</a>. The web app was written in ClojureScript, and the language’s JavaScript interop capabilites allowed us to use <a href="http://jawsjs.com/">jaws.js</a> a JavaScript library for making HTML5/Canvas games. Our entry was an interactive experience called <a href="http://robotdanceparty.clojurecup.com/">robot_dance_party.gif</a>. Create a robot dance party in your browser. Export to .gif (we never got around doing that part).</p>
+
+<p>Although we received only a few votes from the public and mediocre ratings from the judges, that is besides the point of this blog post. Why this was so important to me was that we made this thing in two days. Our previous game took two years! I’ve learned a lot from these two projects of contrasting time scales.</p>
+
+<h2 id="super-wizard-potion-the-neverending-project">Super Wizard Potion: the neverending project</h2>
+
+<p>Our previous project was also our first video game, an in-browser puzzle game called <a href="http://superwizardpotion.pythonanywhere.com/">Super Wizard Potion</a>. On the day of the beta release Mark posted a post-mortem of sorts on Facebook:</p>
+
+<blockquote>I am so burned out of this game. We're going to let the game sit for a while as we gather feedback, and come back to it after we pursue some smaller projects. In the near future, we plan on focusing on making quick prototypes for games, not spending over a month on a particular idea. That way, we can let our ideas flow and focus on our favorite ones and build on them. By recent months, I started to get tired of SWP, so I want to make sure we focus on projects we feel enthusiastic about.
+  
+  
+<p>I'm not saying I don't like SWP, it's just that I had so many ideas for it that we had to unfortunately cut out just to get it finished. But hey, this is only our first game! The lessons I've learned and the experience I've acquired are a great personal investment. My horrible coding was sloppy and huge (first time with a big project in Javascript), but I can learn from the mistakes I've made if I decide to make another game in Javascript. I learned a lot about pixel art, and I've never seen Kris churn out music so fast before. So even if I'm not super-proud of the game itself, at least we came out with pretty cool art and music.
+  
+  
+
+
+
+##robot\_dance\_party.gif: a quick and dirty version 1
+
+In the tech startup world much advice is given to release early and fail fast. In his essay ["The Hardest Lessons for Startups to Learn"](http://paulgraham.com/startuplessons.html), co-founder of startup incubator Y Combinator Paul Graham writes:
+
+<blockquote>The thing I probably repeat most is this recipe for a startup: get a version 1 out fast, then improve it based on users' reactions.
+<p>By "release early" I don't mean you should release something full of bugs, but that you should release something minimal. Users hate bugs, but they don't seem to mind a minimal version 1, if there's more coming soon.
+
+Although playtesting became an integral part of the development of Super Wizard Potion, it took us a very long time to get it in the hands of players. By the time of the first round of playtesting, we were already so deep into the development process. We were so caught up in what WE thought the game should be that we were blinded to what first-time players would think of the game or if they could even get into the game at all. After that first round, we began to make drastic changes to the game. We would have saved so much time and energy if we had people play a much earlier iteration of the game.
+
+Contrast this with the end result of the Clojure Cup coding competition. With robot\_dance\_party.gif we had a working product in two days. We submitted our entry and soon the [feedback](https://clojurecup.com/?#/apps/robotdanceparty) came rolling in. It didn't really matter to me that we didn't receive anything more than 3 out of 5 stars from the judges on any of the criteria. The important thing was that the judges were able to use a minimal yet working application so they can give us feedback.
+
+##Failing Faster
+
+Learning from these two drastically different approaches in development, we have since changed focus as a team. Still being beginners in game development, we realize that we shouldn't be taking on ambitious, long-term projects but smaller projects that would take no more than a month before a prototype is sent off to testers.
+
+Beyond just relieving the pressure of wasting so much effort into a project that would probably fail, focusing on non-ambitious games would free us to take more risks and explore the possibility space of game design before we plunge deep into an idea that we think would be worthwhile investing more time and energy on. To quote Paul Graham once again (from ["Before the Startup"](http://paulgraham.com/before.html)):
+<blockquote>Starting a startup is like a brutally fast depth-first search. Most people should still be searching breadth-first at 20.</blockquote>
+
+You can expect some strange little interactive experiences from Plunger Games released more frequently in the near future. Although we do not yet have a website that acts as a portal for our games, you can [follow me on Twitter](https://twitter.com/zangderak) and [Mark on Tumblr](http://skid-marq.tumblr.com/).
+
+I will leave you with this motivational piece from Extra Credits:
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/rDjrOaoHz9s" frameborder="0" allowfullscreen=""> </iframe>
+</p></blockquote></p></blockquote>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+        <a href="/blog/StrangeLoop2014/" class="btn" title="Strange Loop 2014">Previous</a>
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    
+
+<span>&copy; 2014 Kris Calabio. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/so-simple/">So Simple Theme</a>.</span>
+<div class="social-icons">
+	<a href="http://twitter.com/zangderak" title="Kris Calabio on Twitter" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+	
+	
+	
+	
+	
+	
+	<a href="http://github.com/krisc" title="Kris Calabio on Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+	
+  <a href="/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss-square fa-2x"></i></a>
+</div><!-- /.social-icons -->
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+<!-- Jekyll Simple Search option -->
+<script>
+  $(document).ready(function() {
+      $('.search-field').jekyllSearch({
+          jsonFile: '/search.json',
+          searchResults: '.search-results',
+          template: '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{shortdate}</time></span></a></article></li>',
+          fuzzy: true,
+          noResults: '<p>Nothing found.</p>'
+        });
+  });
+
+  (function( $, window, undefined ) {
+    
+     var bs = {
+          close: $(".close-btn"),
+          searchform: $(".search-form"),
+          canvas: $(".js-menu-screen"),
+          dothis: $('.dosearch')
+      };
+    
+    bs.dothis.on('click', function() {
+      $('.search-wrapper').css({ display: "block" });
+      $('body').toggleClass('no-scroll');
+      bs.searchform.toggleClass('active');
+      bs.searchform.find('input').focus();
+      bs.canvas.toggleClass('is-visible');
+    });
+    
+      bs.close.on('click', function() {
+        $('.search-wrapper').removeAttr( 'style' );
+        $('body').toggleClass('no-scroll');
+        bs.searchform.toggleClass('active');
+        bs.canvas.removeClass('is-visible');
+    });
+  })( jQuery, window );
+</script>
+
+
+
+
+	        
+
+</body>
+</html>
